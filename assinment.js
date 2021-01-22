@@ -1,16 +1,16 @@
-
+// https://github.com/FatihaZannat/assinment-three
 
 function kilometerToMeter(distence){
     // 1 km = 1000m
     if(distence <0){
-        return 'distance can not negative'
+        return 'distance can not be negative'
     }else{
         total = distence *1000
 
         return  total
     }  
 }
-var result = kilometerToMeter(5)
+var result = kilometerToMeter(-5)
 console.log(result)
 
 
@@ -36,7 +36,7 @@ function budgetCalculator(watch,mobile,laptop){
     return totalPrice
  }
 }
-var result = budgetCalculator(2,0,1)
+var result = budgetCalculator(2,-1,1)
 console.log(result)
 
 
@@ -90,5 +90,5 @@ return big
 }
 
 var friend =['Pinky','Marufa','Sujit Roy','Rashed','Showkot']
-var result = megaFriend(friend)
+var result = megaFriend([])
 console.log(result)
