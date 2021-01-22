@@ -1,4 +1,4 @@
-// https://github.com/FatihaZannat/assinment-3
+
 
 function kilometerToMeter(distence){
     // 1 km = 1000m
